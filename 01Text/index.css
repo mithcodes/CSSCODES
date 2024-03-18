@@ -17,3 +17,13 @@ h1{
 a{
     text-decoration: none;
 }
+.box1{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border:2px solid red;
+    background-color: black;
+    text-align: center;
+    color:red;
+    
+}
