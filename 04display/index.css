@@ -1,0 +1,68 @@
+div{
+    width:100px;
+    height:100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    display: flex;
+    display: contents;
+    display: inline-block;
+    display: inline-block;
+    display: none; 
+visibility: hidden;
+}
+
+
+.box1{
+    background-color: rgba(0,0,255,0.5);
+}
+
+
+
+/* rgba(0,0,255,0.5): This is a color value expressed in the RGBA color model. RGBA stands for Red, Green, Blue, and Alpha (opacity).
+
+The first three values (0,0,255) represent the amounts of red, green, and blue respectively. Here, they are set to 0 for red and green, and 255 for blue, indicating a fully saturated blue color.
+The fourth value (0.5) represents the alpha channel, which controls the opacity of the color. It ranges from 0 (fully transparent) to 1 (fully opaque). Here, it's set to 0.5, meaning the color will be semi-transparent.
+
+ */
+
+
+
+
+
+
+
+/* display: inline;
+
+This property tells the browser to treat the element as an inline-level element.
+Inline elements flow along with text or other inline elements, meaning they don't start on a new line and they only take up as much width as necessary.
+If a block-level element (like a <div>) has this property, it behaves like an inline element.
+display: flex;
+
+This property turns the element into a flex container.
+Flexbox layout is a way to arrange elements easily in a container, providing more control over alignment, direction, and spacing of elements.
+Children of a flex container can be manipulated using various flex properties.
+display: contents;
+
+This property replaces the element with its children.
+It's like removing the wrapper around the children and displaying them directly as if they were the element itself.
+Note: It has limited browser support and may not work as expected in all situations.
+display: inline-block;
+
+This property combines features of inline and block-level elements.
+It allows the element to flow like an inline element, while still allowing you to set width, height, margins, and paddings like a block-level element.
+Inline-block elements start on a new line like block-level elements but they don't force a new line like block-level elements do.
+display: none;
+
+This property hides the element completely from the page.
+The element is removed from the layout and doesn't take up any space.
+It's like the element doesn't exist on the page at all.
+visibility: hidden;
+
+This property hides the element from view while still taking up space in the layout.
+Unlike display: none;, the element still occupies space in the layout but is invisible.
+It's like making the element transparent or invisible, but it's still there.
+
+
+
+ */
