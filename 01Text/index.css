@@ -1,0 +1,19 @@
+.para{
+    text-align: center;
+    text-align: end;
+    text-align: start;
+    text-align: justify;
+    text-align: unset;
+    text-align: right;
+}
+h1{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+a{
+    text-decoration: none;
+}
